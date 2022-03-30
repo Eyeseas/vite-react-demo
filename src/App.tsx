@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import {Switch, Route} from 'react-router-dom'
 import logo from './logo.svg'
 import React from "react"
 import './App.css'
-import Book from "@pages/Book";
-
+import RootRoutes from './routers'
 function App() {
 
   return (
     <div className="App">
-      
+      <RootRoutes />
     </div>
   )
 }
