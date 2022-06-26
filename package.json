@@ -11,6 +11,7 @@
     "@ant-design/icons": "^4.7.0",
     "@antv/g2": "^4.2.3",
     "@antv/g6": "^4.6.4",
+    "@jiaminghi/data-view-react": "^1.2.5",
     "@turf/turf": "^6.5.0",
     "ahooks": "^3.5.0",
     "animate.css": "^4.1.1",
