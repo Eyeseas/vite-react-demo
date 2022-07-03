@@ -2,12 +2,18 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import React from "react"
 import './App.css'
-import RootRoutes from './routers'
+import {  Link, Outlet, Route, Routes } from 'react-router-dom'
 function App() {
 
   return (
     <div className="App">
-      <RootRoutes />
+      App
+      <nav>
+        <Link to="">To App</Link>
+        <Link to="bar">To bar</Link>
+        <Link to="foo">To foo</Link>
+      </nav>
+      <Outlet></Outlet>
     </div>
   )
 }
