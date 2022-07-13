@@ -7,8 +7,7 @@ import {Link, Outlet, Route, Routes} from 'react-router-dom'
 function App() {
 
     return (
-        <div className="App">
-            App
+        <div className="App absolute inset-0">
             <nav>
                 <Link to="">To App</Link>
                 <Link to="profile">To profile</Link>
