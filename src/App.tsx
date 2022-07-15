@@ -1,8 +1,6 @@
-import {useState} from 'react'
-import logo from './logo.svg'
 import React from "react"
 import './App.css'
-import {Link, Outlet, Route, Routes} from 'react-router-dom'
+import {Link, Outlet} from 'react-router-dom'
 
 function App() {
 

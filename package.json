@@ -10,6 +10,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@antv/g2": "^4.2.5",
+    "@antv/g2plot": "^2.4.20",
     "@antv/g6": "^4.6.15",
     "@jiaminghi/data-view-react": "^1.2.5",
     "@turf/turf": "^6.5.0",
@@ -36,6 +37,7 @@
     "three": "^0.142.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.182",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/react-redux": "^7.1.24",
